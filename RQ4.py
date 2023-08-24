@@ -200,6 +200,6 @@ for DEPTH, DOC_DEPTH, no_of_mutations_per_iteration in [(2, 2, 12)]:
                 print(savedf.Iter_Gen.quantile([0.25, 0.5, 0.75]))
 
                 break
-        savedf.to_csv('output_rq4_gen_' + str(DEPTH) + '_' + str(DOC_DEPTH) + '_' + str(no_of_mutations_per_iteration) + '.csv', index=False)
+    savedf.to_csv('output_rq4_gen_' + str(DEPTH) + '_' + str(DOC_DEPTH) + '_' + str(no_of_mutations_per_iteration) + '.csv', index=False)
 
 
